@@ -1,9 +1,8 @@
 import React from "react";
-import * as react from "react";
 import { FaWhatsapp } from "react-icons/fa";
 const WhatsAppButton: React.FC = () => {
   // Nomor WhatsApp yang akan dituju
-  const phoneNumber = "628123456789"; // Ganti dengan nomor WhatsApp Anda
+  const phoneNumber = "6282235176752"; // Ganti dengan nomor WhatsApp Anda
 
   // URL untuk membuka chat WhatsApp
   const whatsappUrl = `https://wa.me/${phoneNumber}`;

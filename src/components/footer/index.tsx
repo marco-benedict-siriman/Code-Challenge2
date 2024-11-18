@@ -1,6 +1,4 @@
-import * as react from "react";
 import Link from "next/link";
-import aboutUs from "@/app/aboutUs/page";
 
 const Footer = () => {
   return (
@@ -9,7 +7,7 @@ const Footer = () => {
         <Link href="/">
           <h2 className="items-center flex text-xl font-semibold">
             <img width={68} src="logo-p.png" alt="logo" />
-            <p className="">It ain't cheap</p>
+            <p className="">It ain&apos;t cheap</p>
           </h2>
         </Link>
       </div>

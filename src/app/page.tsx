@@ -1,6 +1,4 @@
-import Image from "next/image";
 import WhatsAppButton from "@/components/whatsAppButton";
-import { FaWhatsapp } from "react-icons/fa";
 import Footer from "@/components/footer";
 
 export default function Home() {
