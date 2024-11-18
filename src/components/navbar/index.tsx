@@ -7,7 +7,7 @@ const Navbar = () => {
         <Link href="/">
           <h2 className="items-center flex text-xl font-semibold">
             <img width={68} src="logo-p.png" alt="logo"></img>
-            <p className="">It ain&apos;t cheap</p>
+            <p>It ain&apos;t cheap</p>
           </h2>
         </Link>
       </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
           </li>
 
           <li className="w-auto">
-            <Link className="hover:opacity-50" href="">
+            <Link className="hover:opacity-50" href="#">
               Contact&Services
             </Link>
           </li>
