@@ -16,6 +16,22 @@
 
 body {
   color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background-color-black);
+  /* font-family: var(--poppins); */
+}
+
+/* styles/globals.css */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 1000;
+}
+
+.whatsapp-icon {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
 }
